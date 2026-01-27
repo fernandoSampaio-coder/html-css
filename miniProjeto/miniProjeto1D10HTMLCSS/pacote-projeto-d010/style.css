@@ -1,0 +1,198 @@
+@charset "UTH-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+header, nav, header, footer{
+    width: 100%;
+}
+
+/*div da header*/
+#cabeca{
+    background-image: linear-gradient(to top, #063D1E, #3DDC84);
+    width: 100%;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: 'bebas neue';
+    height: 150px;
+}
+
+header > h1{
+    font-weight: normal;
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+}
+
+header > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 75%;
+    width: 250px;
+    margin: auto;
+}
+
+nav{
+    height: 25px;
+    margin-top: 25px;
+}
+
+nav > a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+nav > a:hover{
+    background-color: #2fa86521;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #83E1AD;
+}
+
+body > main{
+    background-color: white;
+    margin: auto;
+    width: 75%;
+    padding: 20px;
+    
+}
+
+body > main > article > section > h1{
+    font-family: android;
+    color: #0d753a;
+}
+
+body > main > article > section > h2{
+    font-family: android;
+    color: #0f8040;
+    background-image: linear-gradient(to right, #0d753a49, #ffffff);
+    text-indent: 10px;
+}
+
+body > main > article > section > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+}
+
+body > main > article > section > p > a{
+    color: #0b5c2e;
+    text-decoration: none;
+}
+
+/*links externos*/
+.externo::after{
+    content: "\1F517";
+    margin-left: 0px;
+}
+
+body > main > article > section > picture{
+    margin: auto;
+}
+
+body > main > article > section > picture > img{
+    margin: auto;
+    padding: 0;
+    max-width: 100%;/* A imagem nunca será maior que o espaço disponível */
+    height: auto;/* Mantém a proporção original para não achatar */
+    display: block;
+}
+
+.video > iframe {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+body > main > article > section > img {
+    margin: auto;
+    padding: 0;
+    max-width: 100%;/* A imagem nunca será maior que o espaço disponível */
+    height: auto;/* Mantém a proporção original para não achatar */
+    display: block;
+}
+
+#titulo{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #2da061;
+    padding: 0px;
+}
+
+body > main > article > section > aside > div > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+    text-indent: 10px;
+    font-weight: normal;
+    font-size: 130%;
+}
+
+body > main > article > section > aside > div{
+    background-color: #C5EBD6;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+body > main > article > section > aside > div > p{
+    text-indent: 30px;
+}
+
+.colunasLink{
+    display: flex; /*faz as colunas de links ficarem lado a lado*/
+    gap: 5%; /*separa as colunas*/
+}
+
+body > main > article > section > aside > div > div > ul > li > a{
+    text-decoration: none;
+    color: #0b5c2e;
+}
+
+body > main > article > section > aside > div > p > a{
+    text-decoration: none;
+    color: #0b5c2e;
+}
+
+body > main > article > section > aside > div > div > ul {
+    list-style: none; /*tira o ponto*/
+    padding: 0;
+}
+
+body > main > article > section > aside > div > div > ul > li::before {
+    content: "\2714";
+    color: #063D1E;
+}
+
+body > footer {
+    background-color: #063D1E;
+    height: 30%;
+}
+
+body > footer > p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: small;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+

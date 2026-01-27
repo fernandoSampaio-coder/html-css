@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #d8eed8;
+            margin: 0px;
+        }
+        header {
+            background-color: #67AC8E;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: #335546;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: #67AC8E;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        main > section > h2 {
+            color: #335546;
+        }
+        h1 {
+            color: #335546;
+        }
+        main > section > article > h3 {
+            color: #1f332a;
+        }
+        main > section > article {
+            background-color: #508670;
+        }
+        main > section > article > aside {
+            background-color: #335546;
+            margin: auto 100px auto 100px;
+        }
+        footer {
+            background-color: #1f332a;
+            text-align: center;
+            color: #67AC8E;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título</h1>
+        <p>menu</p>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Seção 1</h2>
+            <article>
+                <h3>lorem</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum distinctio nihil eligendi reprehenderit. Modi, exercitationem impedit! Quos distinctio harum eligendi similique earum quisquam pariatur, eaque error nemo excepturi, necessitatibus minus?</p>
+                <aside>
+                    <p>lorem by lorem</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>feito por alguém</p>
+    </footer>
+</body>
+</html>
