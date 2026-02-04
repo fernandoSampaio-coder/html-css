@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        col.CNome {
+            background-color: green;
+        }
+        col.CIdCi {
+            background-color: yellow;
+        }
+        col.CProfissao {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        
+            <col class="CNome">
+            <col class="CIdCi" span="2">
+            <col class="CProfissao">
+            
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>25</td>
+            <td>São Paulo</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>30</td>
+            <td>Rio de Janeiro</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Mariana</td>
+            <td>28</td>
+            <td>Belo Horizonte</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>32</td>
+            <td>Curitiba</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Fernanda</td>
+            <td>27</td>
+            <td>Salvador</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>29</td>
+            <td>Fortaleza</td>
+            <td>Arquiteto</td>
+        </tr>
+    </table>
+</body>
+</html>
