@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        iframe{
+            width: 95%;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sed tenetur quo necessitatibus ducimus, illum deserunt quisquam ea neque similique vel, ullam minima quae dolore debitis consequuntur nisi quam nemo?</p>
+    
+    <ul>
+        <li><a href="paginasExtras/pag01.html" target="iframe">primeira pagina</a></li>
+        <li><a href="paginasExtras/pag02.html" target="iframe">segunda pagina</a></li>
+        <li><a href="paginasExtras/pag03.html" target="iframe">terceira paina</a></li>
+    </ul>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quo, reiciendis numquam accusamus perspiciatis optio! Soluta laudantium blanditiis consectetur dicta a sunt. Dignissimos magnam error asperiores minima amet iure aspernatur.</p>
+
+    <iframe srcdoc="
+    
+        <h1>Escolha uma das opçaões acima</h1>
+        <p>Esta é a página inicial do iframe. Clique em um dos links acima para
+    
+    " frameborder="0" name="iframe">
+
+        <p>Infelizmente seu navegador não é compatível com iframes.</p>
+
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quas consequuntur iste! Placeat quas, ratione alias nostrum optio repellendus magni, atque natus, nihil nesciunt dolor et illo iste sint deserunt?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate voluptatibus, assumenda tenetur in repudiandae suscipit dolor iste ullam numquam quasi quia optio, nesciunt magnam ratione esse illum, libero nobis laborum!</p>
+
+
+</body>
+</html>
