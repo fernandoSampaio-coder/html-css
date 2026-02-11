@@ -20,10 +20,26 @@ header{
 
 header h1{
     text-align: center;
+    
+}
+
+span.material-symbols-outlined{
+    background-color: rgb(71, 71, 71);
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+span.material-symbols-outlined:hover{
+    background-color: grey;
+    color: black;
 }
 
 menu{
-    display: block;
+    display: none;
     border-radius: 10px;
 }
 
